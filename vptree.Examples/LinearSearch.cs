@@ -8,6 +8,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System;
+using vptree;
 
 public class LinearSearch<T> {
 

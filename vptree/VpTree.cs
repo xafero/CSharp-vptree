@@ -9,6 +9,8 @@ using System.Collections;
 using System.Collections.Generic;
 using System;
 
+namespace vptree
+{
 public delegate double CalculateDistance<T>(T item1, T item2);
 
 public class VpTree<T> {
@@ -236,4 +238,5 @@ public class VpTree<T> {
 		
 		return;
 	}
+}
 }
